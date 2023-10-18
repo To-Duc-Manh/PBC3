@@ -1,0 +1,357 @@
+.Group_top {
+  position: relative;
+  float: right;
+  width: 190px;
+  float: right;
+  margin-top: 100px;
+  z-index: -1;
+}
+.Group41_gv {
+  position: absolute;
+  float: left;
+  margin-left: -100px;
+  z-index: 1;
+}
+.img_doingu {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  clip-path: polygon(
+    50% 0%,
+    83% 12%,
+    100% 43%,
+    94% 78%,
+    68% 100%,
+    32% 100%,
+    6% 78%,
+    0% 43%,
+    17% 12%
+  );
+  background-image: url(../images/doingu_ht.jpg);
+  background-size: cover;
+}
+.img_doingu_2 {
+  display: inline-block;
+  width: 450px;
+  height: 450px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  clip-path: polygon(
+    50% 0%,
+    83% 12%,
+    100% 43%,
+    94% 78%,
+    68% 100%,
+    32% 100%,
+    6% 78%,
+    0% 43%,
+    17% 12%
+  );
+  background-image: url(../images/doingu_hp.jpg);
+  background-size: cover;
+}
+
+.toggle {
+  display: none;
+  color: white;
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.Polygon1_doingu {
+  position: absolute;
+  width: 350px;
+  margin-top: 0px;
+  margin-left: -170px;
+  z-index: -1;
+}
+
+.hr1 {
+  margin-top: -1px;
+  border-top: 1px solid black;
+}
+.group_title_1 {
+  margin-left: 100px;
+}
+.title_1_gv {
+  font-size: 55px;
+  font-weight: 700;
+  margin-top: -20px;
+  color: #1f4495;
+  line-height: 50px;
+}
+.title_2_gv {
+  font-size: 55px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: #c20d21;
+  line-height: 50px;
+}
+.title_3_gv {
+  font-size: 33px;
+  font-weight: 700;
+
+  color: #1f4495;
+  line-height: 50px;
+}
+.group_title_2 {
+  text-align: end;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+.content_gv {
+  text-align: end;
+}
+.content_gv_2 {
+  color: #1f4495;
+  font-weight: 600;
+}
+.Polygon1_gv {
+  position: absolute;
+  width: 400px;
+  margin-top: 140px;
+  margin-left: 150px;
+  z-index: -1;
+}
+.group_doingu {
+  margin-top: 200px;
+  margin-left: 160px;
+  margin-bottom: -150px;
+}
+.img_doingu_all {
+  width: 550px;
+  height: 350px;
+  border-radius: 20px;
+  border: 4px solid #1f4495;
+  object-fit: cover;
+  box-shadow: 10px 10px 5px -4px #98cced;
+  -webkit-box-shadow: 10px 10px 5px -4px #98cced;
+  -moz-box-shadow: 10px 10px 5px -4px #98cced;
+}
+.Polygon7 {
+  position: absolute;
+  margin-top: 400px;
+}
+.Group_gv {
+  position: absolute;
+  margin-top: 850px;
+}
+.img_doingu_all:hover {
+  border: 4px solid #749ef8;
+}
+.Group_sao_gv {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 50px;
+}
+.Group_sao_gv_2 {
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 50px;
+  margin-left: 700px;
+}
+.Ellipse157 {
+  position: absolute;
+  margin-top: 1250px;
+  margin-left: 100px;
+}
+.Ellipse_tron_gv {
+  position: absolute;
+  width: 130px;
+  margin-top: 1600px;
+}
+.Group_gv_soc {
+  position: absolute;
+  width: 120px;
+  margin-top: 1500px;
+}
+.Group_sao_gv_3 {
+  position: absolute;
+  margin-top: 2100px;
+  margin-left: 50px;
+}
+.Polygon16 {
+  position: absolute;
+  width: 250px;
+  margin-top: 2500px;
+}
+.Group_sao_gv_4 {
+  position: absolute;
+  margin-top: 3150px;
+  margin-left: 50px;
+}
+.Ellipse163 {
+  position: absolute;
+  margin-top: 3690px;
+  margin-left: 100px;
+}
+
+.bgr_gv_2 {
+  float: right;
+}
+.Polygon8 {
+  position: absolute;
+  margin-left: -210px;
+  margin-top: -150px;
+}
+.Ellipse157_2 {
+  position: absolute;
+  margin-left: -100px;
+  margin-top: 450px;
+}
+.Group84 {
+  position: absolute;
+  margin-left: -170px;
+  margin-top: 650px;
+}
+.Group_sao_gv_5 {
+  position: absolute;
+  margin-left: -150px;
+  margin-top: 950px;
+}
+.Ellipse157_2 {
+  position: absolute;
+  margin-left: -120px;
+  margin-top: 1250px;
+}
+.Group_gv_2 {
+  position: absolute;
+  margin-left: -160px;
+  margin-top: 1450px;
+}
+.Polygon65 {
+  position: absolute;
+  width: 300px;
+  margin-left: -290px;
+  margin-top: 1550px;
+  z-index: -1;
+}
+.Ellipse157_3 {
+  position: absolute;
+  margin-left: -120px;
+  margin-top: 2350px;
+}
+.Group_gv_3 {
+  position: absolute;
+  width: 250px;
+  margin-left: -230px;
+  margin-top: 2450px;
+}
+.Group_sao_gv_6 {
+  position: absolute;
+  margin-left: -100px;
+  margin-top: 2950px;
+}
+.Ellipse162 {
+  position: absolute;
+  margin-left: -100px;
+  margin-top: 3150px;
+}
+.Polygon17 {
+  position: absolute;
+  width: 300px;
+  margin-left: -290px;
+  margin-top: 3600px;
+  z-index: -1;
+}
+.Group_gv_4 {
+  position: absolute;
+  width: 250px;
+  margin-left: -240px;
+  margin-top: 3600px;
+}
+@media screen and (max-width: 900px) {
+  .main-menu {
+    flex-direction: column;
+    text-align: center;
+  }
+  .toggle {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  .menu {
+    width: 70%;
+    float: right;
+  }
+  .input_rps {
+    position: absolute;
+    width: 300px;
+  }
+  ul li {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .logo_img {
+    width: 200px;
+    margin-top: 30px;
+  }
+  .input_rps {
+    width: 190px;
+  }
+  .group_title_1,
+  .group_title_2 {
+    margin: 0;
+    text-align: center;
+  }
+  .title_1_gv,
+  .title_2_gv {
+    font-size: 30px;
+    margin: 0;
+  }
+  .title_3_gv {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  .Group_top {
+    display: none;
+  }
+  .img_doingu {
+    margin-top: 0;
+    width: 300px;
+    height: 300px;
+  }
+  .img_doingu_2 {
+    width: 300px;
+    height: 300px;
+    margin-left: 47px;
+  }
+  .hr1,
+  .hr2 {
+    display: none;
+  }
+  .rps_gv {
+    position: absolute;
+    margin-top: 400px;
+  }
+  .all_nv {
+    margin-top: 400px;
+  }
+  .Group41_gv,
+  .Polygon1_gv,
+  .bgr_gv_1,
+  .bgr_gv_2 {
+    display: none;
+  }
+  .group_doingu {
+    margin-left: 21px;
+  }
+  .img_doingu_all {
+    width: 350px;
+    height: 350px;
+  }
+  br {
+    display: none;
+  }
+  .content_gv_2,
+  .content_gv_1 {
+    text-align: start;
+  }
+}
