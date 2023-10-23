@@ -78,6 +78,7 @@
 .group_title_1 {
   margin-left: 100px;
 }
+.title_dongugv_1,
 .title_1_gv {
   font-size: 55px;
   font-weight: 700;
@@ -85,6 +86,7 @@
   color: #1f4495;
   line-height: 50px;
 }
+.title_dongugv_2,
 .title_2_gv {
   font-size: 55px;
   font-weight: 700;
@@ -104,8 +106,9 @@
   margin-right: 100px;
   margin-top: 10px;
 }
-.content_gv {
-  text-align: end;
+.group_title_3 {
+  margin-top: 0px;
+  text-align: center;
 }
 .content_gv_2 {
   color: #1f4495;
@@ -119,19 +122,28 @@
   z-index: -1;
 }
 .group_doingu {
-  margin-top: 200px;
+  margin-top: 100px;
   margin-left: 160px;
-  margin-bottom: -150px;
-}
-.img_doingu_all {
+  margin-bottom: -50px;
   width: 550px;
-  height: 350px;
+  height: 300px;
   border-radius: 20px;
   border: 4px solid #1f4495;
   object-fit: cover;
   box-shadow: 10px 10px 5px -4px #98cced;
   -webkit-box-shadow: 10px 10px 5px -4px #98cced;
   -moz-box-shadow: 10px 10px 5px -4px #98cced;
+}
+.img_doingu_all {
+  margin-top: 31px;
+  width: 230px;
+  height: 230px;
+  border-radius: 100%;
+  border: 4px solid #c89000;
+  object-fit: cover;
+}
+.content_doingu {
+  margin-top: 55px;
 }
 .Polygon7 {
   position: absolute;
@@ -141,7 +153,7 @@
   position: absolute;
   margin-top: 850px;
 }
-.img_doingu_all:hover {
+.group_doingu:hover {
   border: 4px solid #749ef8;
 }
 .Group_sao_gv {
@@ -265,6 +277,25 @@
   margin-left: -240px;
   margin-top: 3600px;
 }
+.staff_name {
+  font-weight: 700;
+  color: #c20d21;
+  font-size: 20px;
+}
+.position_staff {
+  font-weight: 600;
+  color: #1f4495;
+}
+.title_dongugv2 {
+  font-size: 16px;
+  color: #1f4495;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.content_gv {
+  font-size: 18px;
+}
 @media screen and (max-width: 900px) {
   .main-menu {
     flex-direction: column;
@@ -287,6 +318,99 @@
   ul li {
     margin-top: 10px;
   }
+
+  /* body */
+  .logo_img {
+    width: 200px;
+    margin-top: 30px;
+  }
+  .input_rps {
+    width: 170px;
+  }
+  .group_title_1,
+  .group_title_2 {
+    margin: 0;
+    text-align: center;
+  }
+  .title_1_gv,
+  .title_2_gv {
+    font-size: 50px;
+    margin-top: 10;
+  }
+  .title_3_gv {
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .Group_top,
+  .Group84,
+  .Polygon65,
+  .Polygon16,
+  .Ellipse_tron_gv,
+  .Polygon7,
+  .Polygon17 {
+    display: none;
+  }
+  .img_doingu {
+    margin-top: 0;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 140px;
+  }
+  .img_doingu_2 {
+    margin-top: 0;
+    width: 400px;
+    height: 400px;
+    margin-left: -5px;
+  }
+  .hr1,
+  .hr2 {
+    display: none;
+  }
+  .rps_gv {
+    position: absolute;
+    margin-top: 400px;
+    text-align: center;
+    margin-left: 16px;
+  }
+  .all_nv {
+  }
+  .Group41_gv,
+  .Polygon1_gv {
+    display: none;
+  }
+  .center_ {
+    display: flex;
+    justify-content: center;
+    margin-left: -16px;
+  }
+  .group_doingu {
+    margin-left: 0;
+    text-align: center;
+    width: 450px;
+    height: 450px;
+  }
+  .img_doingu_all {
+    margin-top: 10px;
+  }
+  br {
+    display: none;
+  }
+  .content_gv_2,
+  .content_gv_1 {
+    text-align: start;
+  }
+  .group_title_3 {
+    margin-top: 700px !important;
+  }
+  .content_doingu {
+    margin-top: 5px;
+  }
+  .content_gv_1,
+  .content_gv,
+  .content_gv,
+  .title_dongugv2 {
+    font-size: 21px;
+  }
 }
 @media (max-width: 450px) {
   .logo_img {
@@ -294,7 +418,7 @@
     margin-top: 30px;
   }
   .input_rps {
-    width: 190px;
+    width: 170px;
   }
   .group_title_1,
   .group_title_2 {
@@ -321,7 +445,8 @@
   .img_doingu_2 {
     width: 300px;
     height: 300px;
-    margin-left: 47px;
+    margin: 0;
+    margin-top: 80px;
   }
   .hr1,
   .hr2 {
@@ -330,9 +455,11 @@
   .rps_gv {
     position: absolute;
     margin-top: 400px;
+    text-align: center;
+    margin-left: 16px;
   }
   .all_nv {
-    margin-top: 400px;
+    margin-top: -50px;
   }
   .Group41_gv,
   .Polygon1_gv,
@@ -340,12 +467,19 @@
   .bgr_gv_2 {
     display: none;
   }
+  .center_ {
+    display: flex;
+    justify-content: center;
+    margin-left: -16px;
+  }
   .group_doingu {
-    margin-left: 21px;
+    margin-left: 0;
+    text-align: center;
+    width: 350px;
+    height: 450px;
   }
   .img_doingu_all {
-    width: 350px;
-    height: 350px;
+    margin-top: 10px;
   }
   br {
     display: none;
@@ -353,5 +487,14 @@
   .content_gv_2,
   .content_gv_1 {
     text-align: start;
+  }
+  .group_title_3 {
+    margin-top: 400px !important;
+  }
+  .content_doingu {
+    margin-top: 5px;
+  }
+  .content_gv {
+    font-size: 18px !important;
   }
 }
